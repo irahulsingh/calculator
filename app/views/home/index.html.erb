@@ -1,0 +1,47 @@
+<div class="container" id="top-margin">
+  <div class="row calc">
+    <div class="col-md-6 card" id="draggable-calc">
+      <div class="row">
+        <div class="form-group"><input type="text" class="form-control"/></div>
+      </div>
+      <div class="row row1">
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">1</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">2</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">3</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">4</button></div>
+      </div>
+      <div class="row row1">
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">5</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">6</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">7</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">8</button></div>
+      </div>
+      <div class="row row1">
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">9</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">0</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">+</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">-</button></div>
+      </div>
+      <div class="row row1">
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">*</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">/</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">.</button></div>
+        <div class="col-md-3"><button class="btn btn-inverse btn-lg btn-block">C</button></div>
+      </div>
+    </div>
+    <div  class="col-md-1">
+      
+    </div>
+    <div class="col-md-5 card-history" id="draggable-history">
+      <h4 class="text-center text-danger">Calculation History</h4>
+    </div>
+  </div>
+</div>
+
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+ <script>
+  $(function() {
+    $( "#draggable-calc" ).draggable();
+    $( "#draggable-history" ).draggable();
+  });
+ </script>
