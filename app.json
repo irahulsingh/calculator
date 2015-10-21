@@ -1,0 +1,8 @@
+{
+  "name":"calculator",
+  "scripts":{},
+  "env":{},
+  "addons":[
+    "heroku-postgresql"
+  ]
+}
